@@ -9,9 +9,4 @@ Well. Finally got around to putting this old website together. Neat thing about 
 Now some experiments:
 
 Normal text
-
-  <HTML>
-    
-    <body>
-    </body>
-  </HTML>
+  this is code
