@@ -10,8 +10,8 @@ Now some experiments:
 
 Normal text
 
-  package it.madlabs.test
-
-  public class Test {
-    System.out.println("This is a test!!");
-  }
+  <HTML>
+    
+    <body>
+    </body>
+  </HTML>
