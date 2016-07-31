@@ -9,4 +9,9 @@ Well. Finally got around to putting this old website together. Neat thing about 
 Now some experiments:
 
 Normal text
-  this is code
+
+  if (this_is_code){
+    return all_ok;
+  }
+
+this is not!
