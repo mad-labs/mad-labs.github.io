@@ -1,5 +1,5 @@
 # Plugins
-gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
+gems:             ["jekyll-paginate", "jekyll-gist", "jekyll-github-metadata"]
 
 # Dependencies
 highlighter:      rouge
@@ -8,15 +8,15 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Madlabs - Open Lab poject
-tagline:          Mad people for mad projects
+title:            "Open Lab poject"
+tagline:          "from MadLabs: mad people for mad projects"
 description:      "Tutorial series on web coding"
 url:              https://mad-labs.github.io
 baseurl:          /
 
 author:
-  name:           'Manfredi Gabriele'
-  url:            ''
+  name:           "Manfredi Gabriele"
+  url:            ""
 
 paginate:         5
 
