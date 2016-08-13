@@ -33,13 +33,13 @@ sul workspace
 
     * nell’applicazione ci sono 3 pagine:
 
-        * main menu (page1)![image alt text](image_0.png)
+        * main menu (page1)![image alt text]({{ site.baseurl }}public/images/image_0.png)
 
             * un click su un’icona casa/auto/posate porta alla corrispondente sezione di aggiunta spese
 
             * un click sull’icona calendario porta al riepilogo spese
 
-        * aggiunta spesa (page2)![image alt text](image_1.png)
+        * aggiunta spesa (page2)![image alt text]({{ site.baseurl }}public/images/image_1.png)
 
             * la sezione aggiunta spese è composta da:
 
@@ -61,7 +61,7 @@ sul workspace
 
                     * un click sulla matita carica i dati della spesa nel form e alla conferma li cambia nella lista e nel totale del mese
 
-        * riepilogo spese (page3)![image alt text](image_2.png)
+        * riepilogo spese (page3)![image alt text]({{ site.baseurl }}public/images/image_2.png)
 
             * un click sull’icona con la freccia rossa riporta alla pagina principale
 
