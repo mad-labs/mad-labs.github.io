@@ -1,14 +1,14 @@
 ---
 layout: post
-title: React - Esercizi 04
+title: React - Esercizio 05
 category: React
 tags: [Javascript, React, front end, framework]
 excerpt_separator: <!--more-->
 ---
 
-### Esercizio 04
+### Esercizio 05
 
-Esercizio 4
+Esercizio 5
 <!--more-->
 
 * clonare il progetto react-flux-homeworksV2 con :
