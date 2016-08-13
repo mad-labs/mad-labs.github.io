@@ -8,9 +8,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            "Open Lab poject"
-tagline:          "from MadLabs: mad people for mad projects"
-description:      "Tutorial series on web coding"
+title:            "OpenLab project"
+tagline:          "Mad people for Mad projects"
+description:      "Tutorials su sviluppo web e tecnologie"
 url:              https://mad-labs.github.io
 baseurl:          /
 
