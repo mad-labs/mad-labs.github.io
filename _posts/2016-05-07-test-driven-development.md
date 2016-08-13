@@ -21,16 +21,14 @@ L'invenzione del metodo (o la sua riscoperta[[4]](https://it.wikipedia.org/wiki/
 
 Il TDD si articola in brevi cicli che constano di tre fasi principali. La descrizione originale dei cicli TDD data da [Kent Beck](https://it.wikipedia.org/wiki/Kent_Beck)nel libro *Test-Driven Development by Example*[[7]](https://it.wikipedia.org/wiki/Test_driven_development#cite_note-Beck-7) è quella usata universalmente come riferimento.
 
-# JASMIE - Behavior-Driven JavaScript
+### JASMIE - Behavior-Driven JavaScript
 
-Jasmine is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript frameworks. It does not require a DOM.
-
+Jasmine is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript frameworks. It does not require a DOM
 [http://jasmine.github.io/](http://jasmine.github.io/)
 
 Per il nostro progetto utilizzeremo la versione 2.2 di Jasmine: [http://jasmine.github.io/2.2/introduction.html](http://jasmine.github.io/2.2/introduction.html)
 
 Una facile introduzione all’uso di Jasmine e alle tecniche TDD è reperibile qui:
-
 [https://www.udacity.com/course/javascript-testing--ud549](https://www.udacity.com/course/javascript-testing--ud549)
 
 Jamine utilizza un linguaggio di scrittura dei test derivante dalla BDD (Behavior-driven development), un’evoluzione della tecnica TDD che avvicina al business il modello di sviluppo, combinando quest’ultima con altre tecniche di design come la domain driven design e la Object Oriented analisys and design.
@@ -48,7 +46,6 @@ At the heart of BDD is a rethinking of the approach to the unit testing and acce
 La notazone di Jasmine deriva più precisamente da un noto strumento per TDD / BDD: RSpec ([https://en.wikipedia.org/wiki/RSpec](https://en.wikipedia.org/wiki/RSpec)), dove invece dell’utilizzo di linguaggio semi-formale per descrivere un test (solitamente una user story), viene utilizzato un linguaggio più tecnico, chiamato Specifica (o Spec per brevità).
 
 A subcategory of behavior-driven development is formed by tools that use specifications as an input language rather than user stories. An example of this style is the RSpec tool that was also developed by Dan North. Specification tools don't use user stories as an input format for test scenarios but rather use functional specifications for units that are being tested. These specifications often have a more technical nature than user stories and are usually less convenient for communication with business personnel than are user stories.[2][22] An example of a specification for a stack might look like this:
-
 
 > Specification: Hash
 >
@@ -82,17 +79,18 @@ Da qui si nota la somiglianza con Jasmine e i suoi costrutti.
 [https://en.wikipedia.org/wiki/Behavior-driven_development](https://en.wikipedia.org/wiki/Behavior-driven_development)
 
 NOTA:
-
 Per utilizzare Jasmine senza webserver deve essere abilitato all’accesso a file locali
 
+#### Firefox
+> In the address bar type in "about:config"
+> Set the "Security.fileuri.strict_origin_policy" to false
+> see [http://kb.mozillazine.org/Security.fileuri.strict_origin_policy](http://kb.mozillazine.org/Security.fileuri.strict_origin_policy)
 
-Firefox
-In the address bar type in "about:config"
-Set the "Security.fileuri.strict_origin_policy" to false
-( see: http://kb.mozillazine.org/Security.fileuri.strict_origin_policy )
-Chrome
-Load chrome with the "--allow-file-access-from-files" command line flag set
-( see: http://www.chromium.org/developers/how-tos/run-chromium-with-flags )
+#### Chrome
+> Load chrome with the "--allow-file-access-from-files" command line flag set
+> see [http://www.chromium.org/developers/how-tos/run-chromium-with-flags
+> see [here](http://www.chromium.org/developers/how-tos/run-chromium-with-flags)
+](http://www.chromium.org/developers/how-tos/run-chromium-with-flags)
 
 aprendolo con il flag:
 
