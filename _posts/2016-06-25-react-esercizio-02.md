@@ -149,6 +149,7 @@ table {
 ```
 
 ***et voilà*** abbiamo il nostro template!!
+
 * clonare il progetto react-flux-homeworks con **git clone ssh://git@worky01:/home/git/react-flux-homeworks.git** sul workspace
   * il progetto contiene un template in html da utilizzare per l'esercizio
 * creare un branch chiamato *tictactoe_***_proprionome_**
