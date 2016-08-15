@@ -12,7 +12,7 @@ Ora che abbiamo le basi per il nostro gioco, non ci resta che migliorarlo!
 <!--more-->
 
 * basandosi sul codice prodotto con l'[Esercizio 02]({% post_url 2016-06-25-react-esercizio-02 %}) incrementeremo le funzionalità del gioco.
-* dopo aver letto il tutorial su:
+* dopo aver letto i tutorial su:
     * [https://facebook.github.io/react/docs/thinking-in-react.html](https://facebook.github.io/react/docs/thinking-in-react.html)
         * importante il passaggio dello stato come proprietà e delle funzioni per manipolarlo
 * seguire le norme imparate nel tutorial precedente per migliorare il gioco del tris in questo modo
@@ -27,6 +27,6 @@ Ora che abbiamo le basi per il nostro gioco, non ci resta che migliorarlo!
 * troverete la mia versione sotto il branch tictactoe_gabriele
 * pushate il codice finito :)
 * RISORSE UTILI:
-    * https://facebook.github.io/react/docs/component-specs.html#lifecycle-methods
+    * [https://facebook.github.io/react/docs/component-specs.html#lifecycle-methods](https://facebook.github.io/react/docs/component-specs.html#lifecycle-methods)
 
 Scrivetemi pure per info
