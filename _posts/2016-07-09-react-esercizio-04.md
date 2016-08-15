@@ -1,34 +1,32 @@
 ---
-layout: post
+layout: tutorial-post
 title: React - Esercizio 04
 category: React
 tags: [Javascript, React, front end, framework]
 excerpt_separator: <!--more-->
+tutorial_tile: FLUXiamoci!
 ---
 
-### Esercizio 04
-
-Esercizio 4
+In Questo esercizio inizieremo a capire un po' FLUX e come utilizzarlo per gestire i dati in un'applicazione React.
 <!--more-->
 
-* clonare il progetto react-flux-homeworksV2 con **git clone ssh://git@worky01:/home/git/react-flux-homeworksV2.git** sul workspace
-* creare un branch chiamato *wimm_***_proprionome_**
-* leggere file README.TXT e seguire le istruzioni
-* dopo aver letto:
+Come si può leggere in quasi tutti i tutorial FLUX è un pattern architetturale che a volte è un po' eccessivo se i dati scambiati fra i componenti dall'applicazione non sono tantissimi. Ma per farci le ossa lo usaremo lo stesso anche nella nostra piccola APP. Per prima cosa leggeremo dei tutorial e poi ne seguiremo uno per capire le basi.
+
+Eccoli:
+
+* una breve introduzione a FLUX e al suo utilizzo:
   * [http://blog.andrewray.me/flux-for-stupid-people/](http://blog.andrewray.me/flux-for-stupid-people/)
-    * una breve introduzione a FLUX e al suo utilizzo
-  * [http://blog.andrewray.me/the-reactjs-controller-view-pattern/](http://blog.andrewray.me/the-reactjs-controller-view-pattern/)
-    * un buon pattern per gestire componenti senza stato
+* una panoramica completa su cosa è FLUX e sul suo utilizzo:
   * [http://fluxxor.com/what-is-flux.html](http://fluxxor.com/what-is-flux.html)
-    * una panoramica completa su cosa è FLUX e sul suo utilizzo
-* una breve introduzione a FLUX e al suo utilizzo
-  * [https://tonyspiro.com/building-a-simple-react-application-using-the-flux-pattern/](https://tonyspiro.com/building-a-simple-react-application-using-the-flux-pattern/)
-    * in questo tutorial invece c'è un esempio completo di applicazione React / Flux
-    * purtroppo la configurazione iniziale del tutorial non funziona: ho configurato prendendo un po' dal repository e un po' da lla doc ufficiale
 
-#### SPOILER ALERT
+### IL TUTORIAL
+Finalmente, dopo la teoria, scriviamo qualche riga di codice per tirare fuori un esempio completo di applicazione React / Flux!
 
-Ecco il risultato finale:
+* [https://tonyspiro.com/building-a-simple-react-application-using-the-flux-pattern/](https://tonyspiro.com/building-a-simple-react-application-using-the-flux-pattern/)
+
+#### SEGUENDO IL TUTORIAL 01...
+
+Purtroppo la configurazione iniziale del tutorial non funziona: ho configurato prendendo un po' dal repository linkato e un po' da lla doc ufficiale. Ecco il risultato finale:
 
 ```javascript
 var gulp = require('gulp'),
@@ -83,9 +81,9 @@ gulp.task('bundle', function () {
 });
 ```
 
-#### SPOILER ALERT
+#### SEGUENDO IL TUTORIAL 02...
 
-Durante il tutorial ho incontrato questo codice:
+Nota: durante il tutorial ho incontrato questo codice:
 
 ```javascript
 //ListItem.js
@@ -112,8 +110,7 @@ che ho prontamente trasformato in
 
 bhe, non fatelo, perchè non funziona! Le arrow function non sono adatte per i metodi..
 
-
-#### SPOILER ALERT
+#### SEGUENDO IL TUTORIAL 03...
 
 Per far funzionare il tutorial ho dovuto modificare il codice del file app.jsx aggiungendo la dipendenza a ReactDOM e cambiando la chiamata del metodo **React.render** in **ReactDOM.render**
 
@@ -128,7 +125,7 @@ ReactDOM.render(<AppRoot />,
 );
 ```
 
-#### SPOILER ALERT
+#### SEGUENDO IL TUTORIAL 04...
 
 Quando crea il componente NewItemForm in *NewItemForm.jsx* usa il dom per recuperare le informazioni del from. Non mi piace.. Molto meglio la soluzione che fornivano nel primo tutorial con le funzioni di cambiamento valore..
 
@@ -180,7 +177,7 @@ class NewItemForm extends React.Component {
 export default NewItemForm;
 ```
 
-#### SPOILER ALERT
+#### SEGUENDO IL TUTORIAL 05...
 
 Ecco un altra cosa che non funziona.. Sembra che il **ListStore**, nonostante estendesse **EventEmitter**, non supporti le funzioni *this.on(..)* e *this.emit()* .. Quindi ho rimediato creando una specie di Singleton con i moduli javascript. Se avete in mente il module pattern è molto simile.
 
@@ -240,22 +237,91 @@ class ListStore extends EventEmitter {
 export default new ListStore(); //ecco il singleton
 ```
 
+#### EXTRA!!!
+
+Dopo aver finito il tutorial ho deciso di applicare uno dei consigli del primo tutorial: ho messo in piedi un action dispatcher
+
+```javascript
+//ListActions.js
+import AppDispatcher from './AppDispatcher';
+
+class ListActions {
+
+  constructor(){
+    super();
+  }
+
+  addItemAction(id, itemTitle) {
+    console.log('addItemAction(id, itemTitle)');
+    AppDispatcher.dispatch({
+      action: 'add-item',
+      new_item: {
+        id: id,
+        name: itemTitle
+      }
+    });
+  }
+
+  removeItemAcion(id){
+    console.log('removeItemAcion(id)');
+    AppDispatcher.dispatch({
+      action: 'remove-item',
+      id: id
+    });
+  }
+}
+
+export default new ListActions();
+```
+
+dopodichè ho dovuto modificare due file per allienarli:
+
+```javascript
+//ListActions.js
+{
+  //...
+  removeItem(e){
+    let id = e.target.dataset.id;
+    ListActions.removeItem(id);
+  }
+}
+```
+
+```javascript
+//NewItemForm.js
+{
+  //...
+  createItem(e){
+    //...
+    this.setState({itemTitle : ''});
+    ListActions.addItem(id, itemTitle);
+  }
+}
+```
+
+### HERE WE GO!
+
+E ora a noi! E qui senza aiuti!! Ecco cosa fare:
+
+* clonare il progetto react-flux-homeworksV2 con **git clone ssh://git@worky01:/home/git/react-flux-homeworksV2.git** sul workspace
+* creare un branch chiamato *wimm_***_proprionome_**
+* leggere file README.TXT e seguire le istruzioni per installare GULP e le librerie necessarie
 * seguire le norme imparate nel tutorial precedente per creare una semplice applicazione react/flux:
   * creare una pagina di "aggiunta spesa" (page2)![image alt text]({{ site.baseurl }}public/images/image_1.png)
-      * la sezione sarà composta da:
-          * un form per aggiungere una nuova spesa / modificarne una esistente
-          * un riepilogo di tutte le spese inserite
-          * uso del **form**
-              * nel form va inserito un *importo in euro*, una *data* (prevalorizzata al giorno corrente) e un campo *nota*
-              * un click sul **+ verde** conferma i dati e aggiunge la spesa nella lista sotto
-              * Un click sulla **freccia rossa** resetta i dati
-          * uso della **lista**
-              * un click sulla **x rossa** cancella la spesa dalla lista e dal totale del mese
-              * un click sulla **matita** carica i dati della spesa nel form e alla conferma li cambia nella lista e nel totale del mese
-* troverete la mia versione (quasi finita) sotto il branch wimm_gabriele
-* pushare il codice finito :)
-* RISORSE:
-    * framework css utilizzato: [http://getskeleton.com/](http://getskeleton.com/)
-    * icone utilizzate: [https://www.iconfinder.com/iconsets/bitsies](https://www.iconfinder.com/iconsets/bitsies)
+    * la sezione sarà composta da:
+      * un form per aggiungere una nuova spesa / modificarne una esistente
+      * un riepilogo di tutte le spese inserite
+      * uso del **form**
+          * nel form va inserito un *importo in euro*, una *data* (prevalorizzata al giorno corrente) e un campo *nota*
+          * un click sul **+ verde** conferma i dati e aggiunge la spesa nella lista sotto
+          * Un click sulla **freccia rossa** resetta i dati
+      * uso della **lista**
+          * un click sulla **x rossa** cancella la spesa dalla lista e dal totale del mese
+          * un click sulla **matita** carica i dati della spesa nel form e alla conferma li cambia nella lista e nel totale del mese
 
-Scrivetemi pure per info
+#### RISORSE
+
+Ecco le risorse utilizzate in questo esercizio:
+
+* framework css utilizzato: [http://getskeleton.com/](http://getskeleton.com/)
+* icone utilizzate: [https://www.iconfinder.com/iconsets/bitsies](https://www.iconfinder.com/iconsets/bitsies)
