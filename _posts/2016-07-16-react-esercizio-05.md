@@ -64,7 +64,5 @@ E ora a noi! E qui senza aiuti!! Ecco cosa fare:
 
 Ecco le risorse utilizzate in questo esercizio:
 
-    * framework css utilizzato: [http://getskeleton.com/](http://getskeleton.com/)
-    * icone utilizzate: [https://www.iconfinder.com/iconsets/bitsies](https://www.iconfinder.com/iconsets/bitsies)
-
-Scrivetemi pure per info
+* framework css utilizzato: [http://getskeleton.com/](http://getskeleton.com/)
+* icone utilizzate: [https://www.iconfinder.com/iconsets/bitsies](https://www.iconfinder.com/iconsets/bitsies)
