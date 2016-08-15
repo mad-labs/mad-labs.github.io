@@ -98,6 +98,7 @@ Durante il tutorial ho incontrato questo codice:
 
 che ho prontamente trasformato in
 
+
 ```javascript
 //ListItem.js
 {
@@ -115,7 +116,7 @@ bhe, non fatelo, perchè non funziona! Le arrow function non sono adatte per i m
 
 Per far funzionare il tutorial ho dovuto modificare il codice del file app.jsx aggiungendo la dipendenza a ReactDOM e cambiando la chiamata del metodo **React.render** in **ReactDOM.render**
 
-```jsx
+```javascript
 //app.jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -130,7 +131,7 @@ ReactDOM.render(<AppRoot />,
 
 Quando crea il componente NewItemForm in *NewItemForm.jsx* usa il dom per recuperare le informazioni del from. Non mi piace.. Molto meglio la soluzione che fornivano nel primo tutorial con le funzioni di cambiamento valore..
 
-```jsx
+```javascript
 //NewItemForm.jsx
 import React from 'react';
 import AppDispatcher from '../dispatcher/AppDispatcher';
@@ -182,7 +183,7 @@ export default NewItemForm;
 
 Ecco un altra cosa che non funziona.. Sembra che il **ListStore**, nonostante estendesse **EventEmitter**, non supporti le funzioni *this.on(..)* e *this.emit()* .. Quindi ho rimediato creando una specie di Singleton con i moduli javascript. Se avete in mente il module pattern è molto simile.
 
-```jsx
+```javascript
 //ListStore.js
 import EventEmitter from 'events';
 
