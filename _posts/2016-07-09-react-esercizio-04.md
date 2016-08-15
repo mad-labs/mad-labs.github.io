@@ -14,13 +14,14 @@ Esercizio 4
 * clonare il progetto react-flux-homeworksV2 con **git clone ssh://git@worky01:/home/git/react-flux-homeworksV2.git** sul workspace
 * creare un branch chiamato *wimm_***_proprionome_**
 * leggere file README.TXT e seguire le istruzioni
-* dopo aver letto i tutorial su:
-  * [https://blog.risingstack.com/the-react-way-getting-started-tutorial/](https://blog.risingstack.com/the-react-way-getting-started-tutorial/)
+* dopo aver letto:
   * [http://blog.andrewray.me/flux-for-stupid-people/](http://blog.andrewray.me/flux-for-stupid-people/)
-    * qui c'è una breve introduzione a FLUX e al suo utilizzo
+    * una breve introduzione a FLUX e al suo utilizzo
   * [http://blog.andrewray.me/the-reactjs-controller-view-pattern/](http://blog.andrewray.me/the-reactjs-controller-view-pattern/)
+    * un buon pattern per gestire componenti senza stato
   * [http://fluxxor.com/what-is-flux.html](http://fluxxor.com/what-is-flux.html)
-    * questa guida da una panoramica completa su cosa è FLUX e sul suo utilizzo
+    * una panoramica completa su cosa è FLUX e sul suo utilizzo
+* una breve introduzione a FLUX e al suo utilizzo
   * [https://tonyspiro.com/building-a-simple-react-application-using-the-flux-pattern/](https://tonyspiro.com/building-a-simple-react-application-using-the-flux-pattern/)
     * in questo tutorial invece c'è un esempio completo di applicazione React / Flux
     * purtroppo la configurazione iniziale del tutorial non funziona: ho configurato prendendo un po' dal repository e un po' da lla doc ufficiale
