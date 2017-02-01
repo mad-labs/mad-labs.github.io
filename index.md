@@ -90,6 +90,7 @@ layout: default
     <div class="content">
         <header>
             <h2>Mad Labs - Tech Addicts</h2>
+            <p>Blog on technology</p>
             <p>Coming soon...</p>
         </header>
         <p></p>
@@ -105,6 +106,7 @@ layout: default
     <div class="container">
         <header class="major">
             <h2>Mad Labs - Spred Bytes</h2>
+            <p>Open source projects</p>
             <p>Coming soon..</p>
         </header>
         <div class="box alt">
