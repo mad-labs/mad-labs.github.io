@@ -107,16 +107,15 @@ layout: default
         <header class="major">
             <h2>Mad Labs - Spred Bytes</h2>
             <p>Open source projects</p>
-            <p>Coming soon..</p>
         </header>
         <div class="box alt">
             <div class="row uniform">
                 <section class="4u 6u(medium) 12u$(xsmall)">
                     <span class="icon alt major fa-area-chart"></span>
-                    <h3>Coming soon..</h3>
-                    <p>Stay tuned for the news!</p>
+                    <h3>sb-jekyll-revealjs</h3>
+                    <p>A Jekyll-based framework for creating simle presentations with Reveal.js and markdown.</p>
                     <ul class="actions">
-                        <li><a href="{{ site.url }}{{ site.baseurl }}/" class="button">Learn More</a></li>
+                        <li><a href="https://github.com/mad-labs/sb-jekyll-revealjs" class="button">Go to project</a></li>
                     </ul>
                 </section>
                 <section class="4u 6u$(medium) 12u$(xsmall)">
