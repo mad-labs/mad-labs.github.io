@@ -111,7 +111,7 @@ layout: default
         <div class="box alt">
             <div class="row uniform">
                 <section class="4u 6u(medium) 12u$(xsmall)">
-                    <span class="icon alt major fa-area-chart"></span>
+                    <span class="icon alt major fa-files-o"></span>
                     <h3>sb-jekyll-revealjs</h3>
                     <p>A Jekyll-based framework for creating simle presentations with Reveal.js and markdown.</p>
                     <ul class="actions">
