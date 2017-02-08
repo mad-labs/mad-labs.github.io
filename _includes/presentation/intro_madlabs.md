@@ -1,11 +1,11 @@
 
 ### What's Mad Labs?
 
-Mad Labs is a group of mad projects and ideas created and mantained by some brave but mad scientist
+> It... Could... Woork!!!!
 
 ![Mad scientis]({{ "/assets/images/128px-Mad_scientist_transparent_background.svg.png" | prepend: site.baseurl }})
 
-> A group of crazy and passionate technologist who like to improve their skills and share knowledge
+The Mad Labs organization is a comunity of crazy technologists working on experiments designed to push our software development skills into new spaces
 <!-- next-slide -->
 
 ### Our other Projects
