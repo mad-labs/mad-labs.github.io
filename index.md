@@ -59,7 +59,7 @@ layout: default
             <h2>Mad Labs - Open Lab</h2>
             <p>Open Lab is a weekly meeting for developers who are interested in learning technology, sharing experiences or simple code for a couple of hours after work</p>
         </header>
-        <p>We meet every Wednesday from 19:00 to 22:00, kindly hosted with many other comunity by <a href="http://mikamai.com">Mikamai</a> and <a href="http://linkme.it/">LinkMe</a>, in the <a href="http://venini42.it/">venini42</a> space</p>
+        <p>We meet every Wednesday from 19:00 to 22:00, kindly hosted with many other comunity by <a href="http://mikamai.com"  target="_blank">Mikamai</a> and <a href="http://linkme.it/"  target="_blank">LinkMe</a>, in the <a href="http://venini42.it/" target="_blank">venini42</a> space</p>
         <ul class="actions">
             <li><a href="{{ site.url }}{{ site.baseurl }}/open-lab/" class="button">Learn More</a></li>
         </ul>
@@ -75,7 +75,7 @@ layout: default
             <h2>Mad Labs - Icrebreakers</h2>
             <p>Icebreakers are talks, workshops and programming session on a specific argument. Introductionary talks and coding dojo done to improve ourselfs and to network with other people</p>
         </header>
-        <p>We meet every 3rd Thursday of the month, from 19:00 to 22:00, kindly hosted with many other user groups by <a href="http://www.opendotlab.it">OpenDot</a></p>
+        <p>We meet every 3rd Thursday of the month, from 19:00 to 22:00, kindly hosted with many other user groups by <a href="http://www.opendotlab.it" target="_blank">OpenDot</a></p>
         <p>Here all developers and curious are welcome</p>
         <ul class="actions">
             <li><a href="{{ site.url }}{{ site.baseurl }}/icebreakers/" class="button">Learn More</a></li>
