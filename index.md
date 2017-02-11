@@ -72,7 +72,7 @@ layout: default
     <span class="image fit main bottom"><img src="{{ site.url }}{{ site.baseurl }}/images/pic04.jpg" alt="" /></span>
     <div class="content">
         <header>
-            <h2>Mad Labs - Icrebreakers</h2>
+            <h2>Mad Labs - Web Smoothies</h2>
             <p>Icebreakers are talks, workshops and programming session on a specific argument. Introductionary talks and coding dojo done to improve ourselfs and to network with other people</p>
         </header>
         <p>We meet every 3rd Thursday of the month, from 19:00 to 22:00, kindly hosted with many other user groups by <a href="http://www.opendotlab.it" target="_blank">OpenDot</a></p>
