@@ -73,12 +73,12 @@ layout: default
     <div class="content">
         <header>
             <h2>Mad Labs - Web Smoothies</h2>
-            <p>Icebreakers are talks, workshops and programming session on a specific argument. Introductionary talks and coding dojo done to improve ourselfs and to network with other people</p>
+            <p>Web Smoothies are talks, workshops and programming session on a specific argument. Introductionary talks and coding dojo done to improve ourselfs and to network with other people</p>
         </header>
-        <p>We meet every last Thursday of the month, from 19:00 to 22:00, kindly hosted with many other user groups by <a href="http://www.opendotlab.it" target="_blank">OpenDot</a></p>
+        <p>We meet every last Thursday of the month, from 19:00 to 22:00, kindly hosted with many other user groups by <a href="http://www.opendotlab.it">OpenDot</a></p>
         <p>Here all developers and curious are welcome</p>
         <ul class="actions">
-            <li><a href="{{ site.url }}{{ site.baseurl }}/icebreakers/" class="button">Learn More</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/web-smoothies/" class="button">Learn More</a></li>
         </ul>
     </div>
     <a href="#four" class="goto-next scrolly">Next</a>
