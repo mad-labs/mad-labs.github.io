@@ -23,7 +23,7 @@ layout: default
                 <div class="4u 12u$(medium)">
                     <header>
                         <h2>What's <strong class="hg-yellow">Mad Labs</strong>?</h2>
-                        <p>The Mad Labs organization is a comunity of crazy technologists 
+                        <p>The Mad Labs organization is a community of crazy technologists 
                            working on experiments designed to push
                            our software development skills into 
                            <strong class="hg-yellow">new spaces</strong>.
@@ -59,7 +59,7 @@ layout: default
             <h2>Mad Labs - Open Lab</h2>
             <p>Open Lab is a weekly meeting for developers who are interested in learning technology, sharing experiences or simple code for a couple of hours after work</p>
         </header>
-        <p>We meet every Wednesday from 19:00 to 22:00, kindly hosted with many other comunity by <a href="http://mikamai.com"  target="_blank">Mikamai</a> and <a href="http://linkme.it/"  target="_blank">LinkMe</a>, in the <a href="http://venini42.it/" target="_blank">venini42</a> space</p>
+        <p>We meet every Wednesday from 19:00 to 22:00, kindly hosted with many other communities by <a href="http://mikamai.com"  target="_blank">Mikamai</a> and <a href="http://linkme.it/"  target="_blank">LinkMe</a>, in the <a href="http://venini42.it/" target="_blank">venini42</a> space</p>
         <ul class="actions">
             <li><a href="{{ site.url }}{{ site.baseurl }}/open-lab/" class="button">Learn More</a></li>
         </ul>
