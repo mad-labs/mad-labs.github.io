@@ -51,55 +51,9 @@ layout: default
     <a href="#two" class="goto-next scrolly">Next</a>
 </section>
 
-<!-- Two -->
-<section id="two" class="spotlight openlab right">
-    <span class="image fit main"><img src="{{ site.url }}{{ site.baseurl }}/images/pic03.jpg" alt="" /></span>
-    <div class="content">
-        <header>
-            <h2>Mad Labs - Open Lab</h2>
-            <p>Open Lab is a weekly meeting for developers who are interested in learning technology, sharing experiences or simple code for a couple of hours after work</p>
-        </header>
-        <p>We meet every Wednesday from 19:00 to 22:00, kindly hosted with many other communities by <a href="http://mikamai.com"  target="_blank">Mikamai</a> and <a href="http://linkme.it/"  target="_blank">LinkMe</a>, in the <a href="http://venini42.it/" target="_blank">venini42</a> space</p>
-        <ul class="actions">
-            <li><a href="{{ site.url }}{{ site.baseurl }}/open-lab/" class="button">Learn More</a></li>
-        </ul>
-    </div>
-    <a href="#three" class="goto-next scrolly">Next</a>
-</section>
-
-<!-- Three -->
-<section id="three" class="spotlight icebreakers left">
-    <span class="image fit main bottom"><img src="{{ site.url }}{{ site.baseurl }}/images/pic04.jpg" alt="" /></span>
-    <div class="content">
-        <header>
-            <h2>Mad Labs - Web Smoothies</h2>
-            <p>Web Smoothies are talks, workshops and programming session on a specific argument. Introductionary talks and coding dojo done to improve ourselfs and to network with other people</p>
-        </header>
-        <p>We meet every 3rd Thursday of the month, from 19:00 to 22:00, kindly hosted with many other user groups by <a href="http://www.opendotlab.it">OpenDot</a></p>
-        <p>Here all developers and curious are welcome</p>
-        <ul class="actions">
-            <li><a href="{{ site.url }}{{ site.baseurl }}/web-smoothies/" class="button">Learn More</a></li>
-        </ul>
-    </div>
-    <a href="#four" class="goto-next scrolly">Next</a>
-</section>
-
-<!-- Four -->
-<section id="four" class="spotlight techaddicts right">
-    <span class="image fit main bottom"><img src="{{ site.url }}{{ site.baseurl }}/images/pic07.jpg" alt="" /></span>
-    <div class="content">
-        <header>
-            <h2>Mad Labs - Tech Addicts</h2>
-            <p>Blog on technology</p>
-            <p>Coming soon...</p>
-        </header>
-        <p></p>
-        <ul class="actions">
-            <li><a disabled="disabled" href="{{ site.url }}{{ site.baseurl }}/tech-addicts/" class="button">Learn More</a></li>
-        </ul>
-    </div>
-    <a href="#five" class="goto-next scrolly">Next</a>
-</section>
+{% for section in site.data.sections %}
+{% include sections.html %}
+{% endfor %}
 
 <!-- Five -->
 <section id="five" class="wrapper spreadbytes special fade-up">
