@@ -6,9 +6,12 @@ highlighted: true
 alltext: true
 ---
 
-We meet every Wednesday from **19:00** to **22:00**, kindly hosted with many other comunity by [Mikamai](http://mikamai.com/) and [LinkMe](http://linkme.it/), in the [venini42](http://venini42.it/) space.
+We meet every Wednesday from **19:00** to **22:00**, kindly hosted with many other comunity by [Mikamai](http://mikamai.com/) and [LinkMe](http://linkme.it/), in the [venini42](http://venini42.it/) space - Via Venini, 42 - MILANO.
+
 The meetings are designed to educate, inspire, and connect developers of all experience, and there are open to anyone interested or involved in development.
+
 Feel free to join us with our current projects or bring your own and ask for an hand....
+
 Here all developers are welcome.
 
 ## Rules
