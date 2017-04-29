@@ -20,7 +20,7 @@ plugins_dir:  src/_plugins
 layouts_dir:  src/_layouts
 data_dir:     src/_data
 includes_dir: src/_includes
-imgs:         src/images
+images:         src/images
 assets:       src/assets
 sass:
   sass_dir: src/assets/css
