@@ -10,7 +10,7 @@ layout: default
         </header>
         <!-- Content -->
 		<section id="content">
-			<!-- <a href="{{ site.url }}{{ site.baseurl }}/#" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/images/pic07.jpg" alt="" /></a> -->
+			<!-- <a href="{{ site.url }}{{ site.baseurl }}/#" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/{{site.imgs}}/pic07.jpg" alt="" /></a> -->
 			<h3>From an idea of Gabriele Manfredi</h3>
             <p>Senior Java Developer in Object Method</p>
             <p>Strong Web development skills: Java (SE -EE), SQL, Html, JavaScript, CSS and more...</p>

@@ -7,7 +7,7 @@ layout: default
     <div class="content">
         <header>
             <blockquote><p>It... Could... Woork!!!!</p></blockquote>
-            <span class="image"><img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" /></span>
+            <span class="image"><img src="{{ site.url }}{{ site.baseurl }}/{{site.imgs}}/pic01.jpg" alt="" /></span>
             <h1 class="hero"><strong class="hg-yellow">Mad Labs</strong></h1>
         </header>
     </div>
@@ -16,7 +16,7 @@ layout: default
 
 <!-- One -->
 <section id="one" class="spotlight madlabs bottom">
-    <span class="image fit main"><img src="{{ site.url }}{{ site.baseurl }}/images/pic02.jpg" alt="" /></span>
+    <span class="image fit main"><img src="{{ site.url }}{{ site.baseurl }}/{{site.imgs}}/pic02.jpg" alt="" /></span>
     <div class="content">
         <div class="container">
             <div class="row">

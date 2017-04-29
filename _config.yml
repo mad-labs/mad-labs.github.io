@@ -16,17 +16,21 @@ repository: mad-labs
 # Where things are
 source:       .
 destination:  _site
-plugins_dir:  _plugins
-layouts_dir:  _layouts
-data_dir:     _data
-includes_dir: _includes
+plugins_dir:  src/_plugins
+layouts_dir:  src/_layouts
+data_dir:     src/_data
+includes_dir: src/_includes
+imgs:         src/images
+assets:       src/assets
+sass:
+  sass_dir: src/assets/css
 collections:
   posts:
     output:   true
 
 # Handling Reading
 safe:         false
-include:      [".htaccess"]
+include:      [".htaccess", "src/images/", "src/assets/"]
 exclude:      ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
@@ -159,6 +163,3 @@ defaults:
         #- Set to 0 to disable movement along an axis
         parallaxBackgroundHorizontal: 'null'
         parallaxBackgroundVertical: 'null'
-
-sass:
-  sass_dir: assets/css
