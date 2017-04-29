@@ -14,7 +14,7 @@ show_downloads: false
 repository: mad-labs
 
 # Where things are
-source:       _src
+source:       .
 destination:  _site
 plugins_dir:  _plugins
 layouts_dir:  _layouts
