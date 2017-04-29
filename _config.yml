@@ -14,8 +14,8 @@ show_downloads: false
 repository: mad-labs
 
 # Where things are
-source:       ./_src
-destination:  ./_site
+source:       _src
+destination:  _site
 plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
