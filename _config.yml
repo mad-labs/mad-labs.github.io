@@ -3,8 +3,7 @@ title: Mad Labs
 author: Gabriele Manfredi
 email: madlabsprojects@gmail.com
 quote: IT... COULD... WOORK!!!
-description: >
-  
+description: "MadLabs organization is a community of technologists tha meet-up together to improve our software and web development skills with talks, coding-dojo and a software laboratory" 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.madlabs.it" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gabonline
@@ -12,6 +11,16 @@ github_username:  gabrox999
 google_analytics:
 show_downloads: false
 repository: mad-labs
+lang: en_IT
+
+social:
+  name: Mad Labs
+  links:
+    - https://twitter.com/madlabsprojects
+    - https://www.facebook.com/madlabsprojects
+    - https://madlabs-team.slack.com
+    - https://github.com/mad-labs/
+
 
 # Where things are
 source:       .
@@ -88,6 +97,8 @@ kramdown:
   hard_wrap:      false
   footnote_nr:    1
 
+gems:
+  - jekyll-seo-tag
 
 defaults:
   -
