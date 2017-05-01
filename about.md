@@ -29,7 +29,7 @@ layout: default
 				<li>OpenDot</li>
 			</ul>
             <p>Website design:</p>
-   			<p>Thanks for website degisn:</p>
+   			<p>Thanks for website design:</p>
 			<ul>
 				<li>https://html5up.net/</li>
 			</ul>
