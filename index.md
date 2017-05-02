@@ -13,7 +13,6 @@ layout: default
     </div>
     <a href="#one" class="goto-next scrolly">Next</a>
 </section>
-
 <!-- One -->
 <section id="one" class="spotlight madlabs bottom">
     <span class="image fit main"><img src="{{ site.url }}{{ site.baseurl }}/{{ site.images }}/pic02.jpg" alt="" /></span>
@@ -52,7 +51,9 @@ layout: default
 </section>
 
 {% for section in site.data.sections %}
-{% include sections.html %}
+    {% if section.homepage %}
+        {% include sections.html %}
+    {% endif %}
 {% endfor %}
 
 <!-- Five -->
@@ -88,32 +89,8 @@ layout: default
                         <li><a href="{{ site.url }}{{ site.baseurl }}/" class="button">Learn More</a></li>
                     </ul>
                 </section>
-                <!--
-                <section class="4u 6u$(medium) 12u$(xsmall)">
-                    <span class="icon alt major fa-paper-plane"></span>
-                    <h3>Coming soon..</h3>
-                    <p>Stay tuned for the news!</p>
-                </section>
-                <section class="4u 6u(medium) 12u$(xsmall)">
-                    <span class="icon alt major fa-file"></span>
-                    <h3>Coming soon..</h3>
-                    <p>Stay tuned for the news!</p>
-                </section>
-                <section class="4u$ 6u$(medium) 12u$(xsmall)">
-                    <span class="icon alt major fa-lock"></span>
-                    <h3>Coming soon..</h3>
-                    <p>Stay tuned for the news!</p>
-                </section>
-                -->
             </div>
         </div>
-        <!--
-        <footer class="major">
-            <ul class="actions">
-                <li><a href="{{ site.url }}{{ site.baseurl }}/" class="button">Learn More</a></li>
-            </ul>
-        </footer>
-        -->
     </div>
     <a href="#six" class="goto-next scrolly">Next</a>
 </section>
@@ -125,13 +102,5 @@ layout: default
             <h2>Keep in touch</h2>
             <p>Follow our channels for all news!</p>
         </header>
-        <!--
-        <form method="post" action="#" class="container 50%">
-            <div class="row uniform 50%">
-                <div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-                <div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
-            </div>
-        </form>
-        -->
     </div>
 </section>
