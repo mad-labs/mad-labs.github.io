@@ -51,9 +51,9 @@ layout: default
 </section>
 
 {% for section in site.data.sections %}
-    {% if section.homepage %}
-        {% include sections.html %}
-    {% endif %}
+{% if section.homepage %}
+{% include sections.html %}
+{% endif %}
 {% endfor %}
 
 <!-- Five -->
