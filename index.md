@@ -9,6 +9,16 @@ layout: default
             <blockquote><p>It... Could... Woork!!!!</p></blockquote>
             <span class="image"><img src="{{ site.url }}{{ site.baseurl }}/{{ site.images }}/pic01.jpg" alt="" /></span>
             <h1 class="hero"><strong class="hg-yellow">Mad Labs</strong></h1>
+            <section class="special">
+                <ul class="icons">
+                    <li><a href="https://twitter.com/madlabsprojects" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/madlabsprojects" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.meetup.com/it-IT/MadLabs-Web-Development-a-Milano/" class="icon alt fa-meetup"><span class="label">Meetup</span></a></li>
+                    <li><a href="{{ site.url }}/slack.html" class="icon alt fa-slack"><span class="label">Slack</span></a></li>
+                    <li><a href="https://github.com/mad-labs/" class="icon alt fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="mailto:madlabsprojects@gmail.com" class="icon alt fa-envelope-o"><span class="label">Email</span></a></li>
+                </ul>
+            </section>
         </header>
     </div>
     <a href="#one" class="goto-next scrolly">Next</a>
