@@ -1,6 +1,3 @@
 [submodule "reveal.js"]
 	path = reveal.js
 	url = https://github.com/hakimel/reveal.js.git
-[submodule "src"]
-	path = src
-	url = https://github.com/mad-labs/site-layout.git
