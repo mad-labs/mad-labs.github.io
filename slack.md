@@ -31,7 +31,7 @@ layout: default
 		<p>We got a slack channel too! You are free to join us and take part of our discussions about web development!</p>
 		<div class="flexcontainer">
 			<div class="slack-signup-wrapper">
-                <iframe src="https://slackin-mad-labs.herokuapp.com/" scrolling="no"></iframe>
+                <iframe src="https://mad-labs-slackin.herokuapp.com/" scrolling="no"></iframe>
             </div>
 		</div>
         <p><a href="https://madlabs-team.slack.com/" target="_blank">https://madlabs-team.slack.com/</a></p>
