@@ -2114,3 +2114,28 @@
 			}
 
 	}
+
+	@include breakpoint(medium) {
+		#banner {
+
+			.goto-next {
+				height: 5em;
+			}
+		}
+	}
+	
+	@include breakpoint(small) {
+		#banner {
+			.goto-next {
+				height: 4em;
+			}
+		}
+	}
+
+	@include breakpoint(xsmall) {
+		#banner {
+			.goto-next {
+				height: 2em;
+			}
+		}
+	}

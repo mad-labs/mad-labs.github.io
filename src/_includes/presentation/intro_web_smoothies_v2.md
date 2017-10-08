@@ -1,13 +1,9 @@
 
 # WELCOME
 
+![web smooties]({{ "../../src/assets/images/web-smoothies.png" | prepend: site.baseurl }}){:height="50%" width="50%"}
+
 ## to Web Smoothies!
-<!-- next-slide -->
-
-### What's Web Smoothies?
-
-{% for info in site.data.sections[3].infos %}
-  {{ info }}
-{% endfor %}
+(a Mad Projects from MadLabs)
 
 <!-- next-slide -->

@@ -3,9 +3,8 @@
 
 > It... Could... Woork!!!!
 
-![Mad scientis]({{ "../../src/assets/images/128px-Mad_scientist_transparent_background.svg.png" | prepend: site.baseurl }})
+![Mad scientis]({{ "../../src/assets/images/512px-Mad_scientist_transparent_background.svg.png" | prepend: site.baseurl }}){:height="40%" width="40%"}
 
-The Mad Labs organization is a comunity of crazy technologists working on experiments designed to push our software development skills into new spaces
 <!-- next-slide -->
 
 ### Our contacts
@@ -18,16 +17,10 @@ The Mad Labs organization is a comunity of crazy technologists working on experi
 
 * Facebook: [https://www.facebook.com/madlabsprojects/](https://www.facebook.com/madlabsprojects)
 
-* Slack: [https://madlabs-team.slack.com/](https://madlabs-team.slack.com/)
+* Slack: [http://www.madlabs.it/slack.html](http://www.madlabs.it/slack.html)
 
 * Meetup: [https://www.meetup.com/it-IT/MadLabs-Web-Development-a-Milano/](https://www.meetup.com/it-IT/MadLabs-Web-Development-a-Milano/)
 
 * Mail: [madlabsprojects@gmail.com](mailto:madlabsprojects@gmail.com)
-
-~
-
-This slides
-
-[{{ page.url | prepend: "http://www.madlabs.it/web-smoothies" }}]({{ page.url | prepend: "http://www.madlabs.it/web-smoothies" }})
 
 <!-- next-slide -->

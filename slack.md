@@ -34,5 +34,6 @@ layout: default
                 <iframe src="https://slackin-mad-labs.herokuapp.com/" scrolling="no"></iframe>
             </div>
 		</div>
+        <p><a href="https://madlabs-team.slack.com/" target="_blank">https://madlabs-team.slack.com/</a></p>
 	</div>
 </section>
