@@ -11,38 +11,37 @@ layout: default
         <!-- Content -->
 		<section id="content">
 			<!-- <a href="{{ site.url }}{{ site.baseurl }}/#" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/{{ site.images }}/pic07.jpg" alt="" /></a> -->
-			<h3>From an idea of Gabriele Manfredi</h3>
-            <p>Senior Java Developer in Object Method</p>
-            <p>Strong Web development skills: Java (SE -EE), SQL, Html, JavaScript, CSS and more...</p>
-            <p>Love develop, boardgame, theater, photography, books, series, movie & learn new things</p>
-            <ul>
-				<li>Mail: gabriele.manfredi.999@gmail.com</li>
-                <li>Skype: gabriele_manfredi</li>
-                <li>Twitter: @GabOnlain</li>
-                <li>Facebook: https://www.facebook.com/Gabriele.Manfredi.999</li>
+			<h3>From an idea of {{ site.data.about.whoami.name }}</h3>
+			{% for resume_row in site.data.about.whoami.resume %}
+				<p>{{ resume_row }}</p>
+			{% endfor %}
+			<ul>
+				{% for contact in site.data.about.whoami.contacts %}
+					<li>{{contact.name}} <a href="{{contact.url}}">{{contact.link_txt}}</a></li>
+				{% endfor %}
             </ul>
 			<h3>Thanks and attributions</h3>
-			<p>Thanks for hosts our projects to:</p>
+			<p>Thanks to ours sponsors:</p>
 			<ul>
-				<li>Object Method</li>
-				<li>Mikamai & Linkme</li>
-				<li>OpenDot</li>
+            {% for sponsor in site.data.about.sponsors %}
+                <li><a href="{{sponsor.url}}">{{sponsor.name}}</a></li>
+            {% endfor %}
 			</ul>
             <p>Website design:</p>
    			<p>Thanks for website design:</p>
 			<ul>
-				<li>https://html5up.net/</li>
+				<li><a href="https://html5up.net/">https://html5up.net/</a></li>
 			</ul>
             <p>Images:</p>
    			<p>Thanks for images to:</p>
 			<ul>
-                <li>http://clipart-library.com/</li>
-				<li>http://www.psdgraphics.com/</li>
+                <li><a href="http://clipart-library.com/">http://clipart-library.com/</a></li>
+				<li><a href="http://www.psdgraphics.com/">http://www.psdgraphics.com/</a></li>
 			</ul>
             <p>Liceses:</p>
 			<ul>
-                <li>https://creativecommons.org/licenses/by/3.0/</li>
-				<li>https://opensource.org/licenses/MIT</li>
+                <li><a href="https://creativecommons.org/licenses/by/3.0/">https://creativecommons.org/licenses/by/3.0/</a></li>
+				<li><a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a></li>
 			</ul>
 		</section>
     </div>

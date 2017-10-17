@@ -70,35 +70,31 @@ layout: default
 <section id="five" class="wrapper spreadbytes special fade-up">
     <div class="container">
         <header class="major">
-            <h2>Mad Labs - Spred Bytes</h2>
-            <p>Open source projects</p>
+            {% for section in site.data.sections %}
+                {% if section.name == 'spread-bytes' %}
+                    <h2>{{ section.title }}</h2>
+                    {% for info in section.infos %}
+                        <p>{{ info }}</p>
+                    {% endfor %}        
+                {% endif %}
+            {% endfor %}
         </header>
         <div class="box alt">
             <div class="row uniform">
-                <section class="4u 6u(medium) 12u$(xsmall)">
-                    <span class="icon alt major fa-files-o"></span>
-                    <h3>sb-jekyll-revealjs</h3>
-                    <p>A Jekyll-based framework for creating simle presentations with Reveal.js and markdown.</p>
-                    <ul class="actions">
-                        <li><a href="https://github.com/mad-labs/sb-jekyll-revealjs" class="button">Go to project</a></li>
-                    </ul>
-                </section>
-                <section class="4u 6u$(medium) 12u$(xsmall)">
-                    <span class="icon alt major fa-comment"></span>
-                    <h3>Coming soon..</h3>
-                    <p>Stay tuned for the news!</p>
-                    <ul class="actions">
-                        <li><a href="{{ site.url }}{{ site.baseurl }}/" class="button">Learn More</a></li>
-                    </ul>
-                </section>
-                <section class="4u$ 6u(medium) 12u$(xsmall)">
-                    <span class="icon alt major fa-flask"></span>
-                    <h3>Coming soon..</h3>
-                    <p>Stay tuned for the news!</p>
-                    <ul class="actions">
-                        <li><a href="{{ site.url }}{{ site.baseurl }}/" class="button">Learn More</a></li>
-                    </ul>
-                </section>
+            {% for section in site.data.sections %}
+                {% if section.name == 'spread-bytes' %}
+                    {% for project in section.projects %}
+                        <section class="4u 6u(medium) 12u$(xsmall)">
+                            <span class="icon alt major {{project.icon}}"></span>
+                            <h3>{{project.title}}</h3>
+                            <p>{{project.description}}</p>
+                            <ul class="actions">
+                                <li>{{project.url}}</li>
+                            </ul>
+                        </section>
+                    {% endfor %}        
+                {% endif %}
+            {% endfor %}
             </div>
         </div>
     </div>

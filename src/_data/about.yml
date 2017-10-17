@@ -1,0 +1,49 @@
+whoami:
+  name: Gabriele Manfredi
+  image:
+    title: Gabriele
+    url: /src/assets/images/fb_profile.jpg
+  contacts:
+    
+    - name: Skype
+      url: skype:gabriele_manfredi?add
+      link_txt: gabriele_manfredi
+
+    - name: Twitter
+      url: https://twitter.com/GabOnlain
+      link_txt: "@GabOnlain"
+
+    - name: Facebook
+      url: https://www.facebook.com/Gabriele.Manfredi.999/
+      link_txt: Gabriele Manfredi
+
+    - name: Mail
+      url: mailto:gabriele.manfredi.999@gmail.com
+      link_txt: gabriele.manfredi.999@gmail.com
+
+  resume:
+    - "Java Developer in Object Method: <a href=\"http://www.objectmethod.it/\">http://www.objectmethod.it/</a>"
+    - "Work maily with: Java (SE -EE), SQL, Html, JavaScript, CSS and more..."
+    - "Love to develop, play boardgames, attend theatre classes, try to take photos & learning new things"
+
+sponsors:
+  - name: Object Method
+    url: http://www.objectmethod.it/
+
+  - name: Mikamai
+    url: https://www.mikamai.com/
+
+  - name: Linkme
+    url: http://linkme.it/
+
+  - name: JetBrains
+    url: https://www.jetbrains.com/
+
+  - name: OpenDot
+    url: http://www.opendotlab.it/
+
+  - name: ThinkOpen
+    url: https://www.thinkopen.it/
+
+  - name: Open Tech School
+    url: https://www.meetup.com/it-IT/OpenTechSchool-Milano/

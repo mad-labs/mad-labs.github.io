@@ -4,10 +4,18 @@ layout: default
 <!-- Main -->
 <div id="main" class="wrapper style1">
     <div class="container">
-        <header class="major major-red">
-            <h2>Welcome to {{ site.data.sections[1].title }}</h2>
-            {% for info in site.data.sections[1].infos %}
-                <p>{{ info }}</p>
+        {% for section in site.data.sections %}
+            {% if section.name == 'web-smoothies' %}
+                <header class="major major-{{section.color}}">      
+            {% endif %}
+        {% endfor %}
+            {% for section in site.data.sections %}
+                {% if section.name == 'web-smoothies' %}
+                    <h2>Welcome to {{ section.title }}</h2>
+                    {% for info in section.infos %}
+                        <p>{{ info }}</p>
+                    {% endfor %}        
+                {% endif %}
             {% endfor %}
         </header>
     </div>

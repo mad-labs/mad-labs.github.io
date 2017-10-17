@@ -4,7 +4,7 @@ category: talk
 from: "19:30"
 to: "21:30"
 where: '<a href="https://www.mikamai.com/">Mikamai</a> / <a href="http://linkme.it/">LinkMe</a> - Via Giulio Venini, 42 - MILANO'
-when: 2017-06-28 
+when: 2017-09-13 
 event-url: /slides/06_breaking_ice_with_java_certifications
 meetup: '<a href="https://www.meetup.com/it-IT/MadLabs-Web-Development-a-Milano/events/243184182/">WebSmoothies: Rompere il ghiaccio con le certificazioni JAVA</a>'
 ---
