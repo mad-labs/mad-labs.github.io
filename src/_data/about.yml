@@ -26,24 +26,42 @@ whoami:
     - "Work maily with: Java (SE -EE), SQL, Html, JavaScript, CSS and more..."
     - "Love to develop, play boardgames, attend theatre classes, try to take photos & learning new things"
 
-sponsors:
-  - name: Object Method
-    url: http://www.objectmethod.it/
+links:
+  - title: ""
+    description: "Thanks to ours sponsors:"
+    list:
+      - name: Object Method
+        url: http://www.objectmethod.it/
 
-  - name: Mikamai
-    url: https://www.mikamai.com/
+      - name: Mikamai
+        url: https://www.mikamai.com/
 
-  - name: Linkme
-    url: http://linkme.it/
+      - name: Linkme
+        url: http://linkme.it/
 
-  - name: JetBrains
-    url: https://www.jetbrains.com/
+      - name: JetBrains
+        url: https://www.jetbrains.com/
 
-  - name: OpenDot
-    url: http://www.opendotlab.it/
+      - name: OpenDot
+        url: http://www.opendotlab.it/
 
-  - name: ThinkOpen
-    url: https://www.thinkopen.it/
+      - name: ThinkOpen
+        url: https://www.thinkopen.it/
 
-  - name: Open Tech School
-    url: https://www.meetup.com/it-IT/OpenTechSchool-Milano/
+      - name: Open Tech School
+        url: https://www.meetup.com/it-IT/OpenTechSchool-Milano/
+    
+  - title: "Images:"
+    description: "Thanks for images to:"
+    list:
+      - name: http://clipart-library.com/
+        url: http://clipart-library.com/
+
+      - name: http://www.psdgraphics.com/
+        url: http://www.psdgraphics.com/
+
+  - title: "Website design pippo:"
+    description: "Thanks for website design:"
+    list:
+      - name: https://html5up.net/
+        url: https://html5up.net/
