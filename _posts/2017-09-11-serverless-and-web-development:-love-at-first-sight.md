@@ -10,7 +10,7 @@ meetup: '<a href="https://www.meetup.com/it-IT/MadLabs-Web-Development-a-Milano/
 ---
 <span class="image right"><img src="{{ site.baseurl }}/{{ site.images }}/128px-Mad_scientist_transparent_background.svg.png" alt=""></span>
 	
-Serverless and WebApps: a match made in heaven
+Serverless & Web Development: love at first sight ❤
 
 Ever eared about "Serverless"? Is one of the new buzzword in the IT, but form many of us is still obscure... Luckly we have Alex Casalboni here, an organizer of Serverless-Italy meetup, to enlighten us on this topic, explaining what's "Serverless" and how this new architectural paradigm match naturally with web development.
 

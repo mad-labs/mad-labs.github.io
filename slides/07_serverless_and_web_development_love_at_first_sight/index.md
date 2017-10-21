@@ -1,5 +1,5 @@
 ---
-title: "Serverless & Web Apps: a match made in heaven"
+title: "Serverless & Web Development: love at first sight ❤"
 description:
 layout: presentation_multipage
 databackgroundimage: /src/assets/images/grunge-danger_custom_2.jpg
