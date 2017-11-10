@@ -7,8 +7,8 @@ layout: default
     <div class="content">
         <header>
             <blockquote><p>It... Could... Woork!!!!</p></blockquote>
-            <span class="image"><img src="{{ site.url }}{{ site.baseurl }}/{{ site.images }}/pic01.jpg" alt="" /></span>
-            <h1 class="hero"><strong class="hg-yellow">Mad Labs</strong></h1>
+            <span class="image_square"><img src="{{ site.url }}{{ site.baseurl }}/{{ site.images }}/pic01.png" alt="" /></span>
+            <!-- <h1 class="hero"><strong class="hg-yellow">Mad Labs</strong></h1> -->
             <section class="special">
                 <ul class="icons">
                     <li><a href="https://twitter.com/madlabsprojects" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
