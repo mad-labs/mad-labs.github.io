@@ -10,4 +10,4 @@
 
 ![qr-code-slack]({{ "../../src/assets/images/qr-code-slack.png" }}){:height="30%" width="30%"}
 
-[http://www.madlabs.it/slack.html](http://www.madlabs.it/slack.html)
+[https://goo.gl/forms/qzKnoYPz5SB79mGU2](https://goo.gl/forms/qzKnoYPz5SB79mGU2)
