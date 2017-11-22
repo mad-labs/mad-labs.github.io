@@ -17,6 +17,7 @@ intros:
   - presentation/intro_whoami.md
   - presentation/intro_thanks_to_thinkopen.md
   - presentation/intro_news.md
+  - presentation/intro_thanks_to_jetbrains.md
 
 outros:
   - presentation/thanks.md
