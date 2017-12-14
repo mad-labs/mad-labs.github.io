@@ -6,7 +6,7 @@
 Thanks to [Donato Andrisani](https://twitter.com/DAndrisani) & [Gabriele Manfredi](https://twitter.com/GabOnlain)
 
 
-Full slides here: [coming soon
-](coming soon)
+Full slides here: [https://www.slideshare.net/GabrieleManfredi1/java-spring-basics-donato-andrisani-gabriele-manfredi
+](https://www.slideshare.net/GabrieleManfredi1/java-spring-basics-donato-andrisani-gabriele-manfredi)
 
 <!-- next-slide -->
